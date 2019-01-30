@@ -75,6 +75,15 @@ jobs:
             command: |
               make preproces
 
+        - run:
+            name: make html
+            command: |
+              make time-frequency
+
+        - run:
+            name: make html
+            command: |
+              make source-space
 
         # Save the outputs
         - store_artifacts:
