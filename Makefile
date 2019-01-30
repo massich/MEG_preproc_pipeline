@@ -26,14 +26,14 @@ preproces:
 	$(PYTHON) 04-artifact_correction_ssp.py
 	$(PYTHON) 05-make_epochs.py
 	$(PYTHON) 06-make_evoked.py
-    $(PYTHON) 08-make_cov.py	
+    $(PYTHON) 08-make_cov.py
 
-time-frequency:    
-    $(PYTHON) 09-time_frequency.py	
+time-frequency:
+    $(PYTHON) 09-time_frequency.py
 
-source-space: 
+source-space:
     $(PYTHON) 01-anatomy.py
-    $(PYTHON) 10-sliding_estimator.py	
+    $(PYTHON) 10-sliding_estimator.py
     $(PYTHON) 11-group_average_sensors.py
     $(PYTHON) 12-make_forward.py
     $(PYTHON) 13-make_inverse.py
