@@ -9,14 +9,16 @@ Configuration parameters for the study. This should be in a folder called
 
 import os
 import numpy as np
+from mne.datasets import sample
 
 
 ###############################################################################
 # DIRECTORIES
 # -----------
-# Let's set the `study path`` where the data is stored on your system
-# study_path = '/Users/sophie/Dropbox/CBD_Hackaton_PreProc/MNE-sample-data/'
-study_path = '../MNE-sample-data/'
+# Let's set the `study path` where the data is stored on your system
+# imagine that your data is stored in `/home/my_user/data/my_data` then:
+# study_path = '/home/my_user/data/my_data'
+study_path = sample.data_path()
 
 
 # The ``subjects_dir`` and ``meg_dir`` for reading anatomical and MEG files.
