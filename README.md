@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/brainthemind/MEG_preproc_pipeline.svg?style=svg)](https://circleci.com/gh/brainthemind/MEG_preproc_pipeline)
+
 Study analysis template with MNE
 ================================
 
